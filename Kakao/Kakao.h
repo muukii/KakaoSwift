@@ -6,14 +6,16 @@
 //  Copyright © 2017 muukii. All rights reserved.
 //
 
+#ifndef Kakao_h
+#define Kakao_h
+
 #import <UIKit/UIKit.h>
 
-//! Project version number for Kakao.
+  //! Project version number for App.
 FOUNDATION_EXPORT double KakaoVersionNumber;
 
-//! Project version string for Kakao.
+  //! Project version string for App.
 FOUNDATION_EXPORT const unsigned char KakaoVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <Kakao/PublicHeader.h>
 
-
+#endif /* Kakao_h */
