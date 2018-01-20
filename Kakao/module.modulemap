@@ -1,7 +1,0 @@
-module KakaoSwift {
-  umbrella header "./KakaoOpenSDK.framework/Headers/KakaoOpenSDK.h"
-
-  export *
-  module * { export * }
-}
-

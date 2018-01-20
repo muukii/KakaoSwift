@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1491622013C6CC0012C2E1 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1491612013C6CC0012C2E1 /* Dummy.swift */; };
+		4B1491632013C7F40012C2E1 /* Kakao.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B14915F2013C3F60012C2E1 /* Kakao.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491E82013CBEA0012C2E1 /* KakaoOpenSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491E32013CBD30012C2E1 /* KakaoOpenSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491E92013CBEA0012C2E1 /* KakaoPushMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491E42013CBD40012C2E1 /* KakaoPushMessageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491EA2013CBEA0012C2E1 /* KakaoPushMessagePropertyForApns.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491DF2013CBD30012C2E1 /* KakaoPushMessagePropertyForApns.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491EB2013CBEA0012C2E1 /* KakaoPushMessagePropertyForGcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C32013CBCD0012C2E1 /* KakaoPushMessagePropertyForGcm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491EC2013CBEA0012C2E1 /* KakaoTalkLinkAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C42013CBCE0012C2E1 /* KakaoTalkLinkAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491ED2013CBEA0012C2E1 /* KakaoTalkLinkObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491E72013CBD40012C2E1 /* KakaoTalkLinkObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491EE2013CBEA0012C2E1 /* KOAccessTokenInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D92013CBD20012C2E1 /* KOAccessTokenInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491EF2013CBEA0012C2E1 /* KOAgeAuthQueryStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491BF2013CBCD0012C2E1 /* KOAgeAuthQueryStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F02013CBEA0012C2E1 /* KOAppCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D52013CBD10012C2E1 /* KOAppCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F12013CBEA0012C2E1 /* KOBaseContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491DE2013CBD30012C2E1 /* KOBaseContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F22013CBEA0012C2E1 /* KOChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D42013CBD10012C2E1 /* KOChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F32013CBEA0012C2E1 /* KOChatContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491E62013CBD40012C2E1 /* KOChatContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F42013CBEA0012C2E1 /* KOError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491E12013CBD30012C2E1 /* KOError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F52013CBEA0012C2E1 /* KOFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C52013CBCE0012C2E1 /* KOFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F62013CBEA0012C2E1 /* KOFriendContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491CB2013CBCF0012C2E1 /* KOFriendContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F72013CBEA0012C2E1 /* KOFriendOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491DB2013CBD20012C2E1 /* KOFriendOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F82013CBEA0012C2E1 /* KOHTTPMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491E02013CBD30012C2E1 /* KOHTTPMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491F92013CBEA0012C2E1 /* KOImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491DA2013CBD20012C2E1 /* KOImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491FA2013CBEA0012C2E1 /* KOLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D72013CBD10012C2E1 /* KOLoginButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491FB2013CBEA0012C2E1 /* KOPushTokenInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491DC2013CBD20012C2E1 /* KOPushTokenInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491FC2013CBEA0012C2E1 /* KOSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C62013CBCE0012C2E1 /* KOSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491FD2013CBEA0012C2E1 /* KOSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C92013CBCF0012C2E1 /* KOSessionTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491FE2013CBEA0012C2E1 /* KOSessionTask+AgeAuthAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491E52013CBD40012C2E1 /* KOSessionTask+AgeAuthAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1491FF2013CBEA0012C2E1 /* KOSessionTask+FriendAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491DD2013CBD20012C2E1 /* KOSessionTask+FriendAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492002013CBEA0012C2E1 /* KOSessionTask+PushAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D12013CBD00012C2E1 /* KOSessionTask+PushAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492012013CBEA0012C2E1 /* KOSessionTask+StoryAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491CC2013CBCF0012C2E1 /* KOSessionTask+StoryAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492022013CBEA0012C2E1 /* KOSessionTask+TalkAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D62013CBD10012C2E1 /* KOSessionTask+TalkAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492032013CBEA0012C2E1 /* KOSessionTask+TokenAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D82013CBD20012C2E1 /* KOSessionTask+TokenAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492042013CBEA0012C2E1 /* KOSessionTask+UserManagementAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491CD2013CBD00012C2E1 /* KOSessionTask+UserManagementAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492052013CBEA0012C2E1 /* KOStorageImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491BE2013CBCD0012C2E1 /* KOStorageImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492062013CBEA0012C2E1 /* KOStoryActorInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491CA2013CBCF0012C2E1 /* KOStoryActorInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492072013CBEA0012C2E1 /* KOStoryCommentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491BC2013CBCC0012C2E1 /* KOStoryCommentInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492082013CBEA0012C2E1 /* KOStoryLikeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491CE2013CBD00012C2E1 /* KOStoryLikeInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492092013CBEA0012C2E1 /* KOStoryLinkInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491BD2013CBCC0012C2E1 /* KOStoryLinkInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B14920A2013CBEA0012C2E1 /* KOStoryMyStoryImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C22013CBCD0012C2E1 /* KOStoryMyStoryImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B14920B2013CBEA0012C2E1 /* KOStoryMyStoryInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D22013CBD00012C2E1 /* KOStoryMyStoryInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B14920C2013CBEA0012C2E1 /* KOStoryPostInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D32013CBD10012C2E1 /* KOStoryPostInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B14920D2013CBEA0012C2E1 /* KOStoryProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C12013CBCD0012C2E1 /* KOStoryProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B14920E2013CBEA0012C2E1 /* KOTalkMessageSending.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491CF2013CBD00012C2E1 /* KOTalkMessageSending.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B14920F2013CBEA0012C2E1 /* KOTalkProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C72013CBCE0012C2E1 /* KOTalkProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492102013CBEA0012C2E1 /* KOUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491E22013CBD30012C2E1 /* KOUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492112013CBEA0012C2E1 /* KOUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C02013CBCD0012C2E1 /* KOUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492122013CBEA0012C2E1 /* KOUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491C82013CBCE0012C2E1 /* KOUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1492132013CBEA0012C2E1 /* NSDictionary+SafeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1491D02013CBD00012C2E1 /* NSDictionary+SafeValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BF1F6AB1FB2D16B0076579F /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF1F6AA1FB2D16B0076579F /* KakaoOpenSDK.framework */; };
-		4BF1F6AC1FB2D4830076579F /* Kakao.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD6DD631FB2D03700EB9C19 /* Kakao.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BF1F6B01FB2D6F00076579F /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1F6AF1FB2D6F00076579F /* Dummy.swift */; };
 		4BF1F6B81FB2D71D0076579F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1F6B71FB2D71D0076579F /* AppDelegate.swift */; };
 		4BF1F6BA1FB2D71D0076579F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1F6B91FB2D71D0076579F /* ViewController.swift */; };
-		4BF1F6BD1FB2D71D0076579F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1F6BB1FB2D71D0076579F /* Main.storyboard */; };
 		4BF1F6BF1FB2D71D0076579F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1F6BE1FB2D71D0076579F /* Assets.xcassets */; };
-		4BF1F6C21FB2D71D0076579F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1F6C01FB2D71D0076579F /* LaunchScreen.storyboard */; };
 		4BF1F6CB1FB2D7910076579F /* Kakao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC4111C1FB2ADF00074781C /* Kakao.framework */; };
 		4BF1F6CC1FB2D7910076579F /* Kakao.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC4111C1FB2ADF00074781C /* Kakao.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -53,19 +95,59 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B14915F2013C3F60012C2E1 /* Kakao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kakao.h; sourceTree = "<group>"; };
+		4B1491612013C6CC0012C2E1 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		4B1491BC2013CBCC0012C2E1 /* KOStoryCommentInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStoryCommentInfo.h; sourceTree = "<group>"; };
+		4B1491BD2013CBCC0012C2E1 /* KOStoryLinkInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStoryLinkInfo.h; sourceTree = "<group>"; };
+		4B1491BE2013CBCD0012C2E1 /* KOStorageImageInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStorageImageInfo.h; sourceTree = "<group>"; };
+		4B1491BF2013CBCD0012C2E1 /* KOAgeAuthQueryStringBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOAgeAuthQueryStringBuilder.h; sourceTree = "<group>"; };
+		4B1491C02013CBCD0012C2E1 /* KOUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOUserInfo.h; sourceTree = "<group>"; };
+		4B1491C12013CBCD0012C2E1 /* KOStoryProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStoryProfile.h; sourceTree = "<group>"; };
+		4B1491C22013CBCD0012C2E1 /* KOStoryMyStoryImageInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStoryMyStoryImageInfo.h; sourceTree = "<group>"; };
+		4B1491C32013CBCD0012C2E1 /* KakaoPushMessagePropertyForGcm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoPushMessagePropertyForGcm.h; sourceTree = "<group>"; };
+		4B1491C42013CBCE0012C2E1 /* KakaoTalkLinkAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoTalkLinkAction.h; sourceTree = "<group>"; };
+		4B1491C52013CBCE0012C2E1 /* KOFriend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOFriend.h; sourceTree = "<group>"; };
+		4B1491C62013CBCE0012C2E1 /* KOSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOSession.h; sourceTree = "<group>"; };
+		4B1491C72013CBCE0012C2E1 /* KOTalkProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOTalkProfile.h; sourceTree = "<group>"; };
+		4B1491C82013CBCE0012C2E1 /* KOUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOUtils.h; sourceTree = "<group>"; };
+		4B1491C92013CBCF0012C2E1 /* KOSessionTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOSessionTask.h; sourceTree = "<group>"; };
+		4B1491CA2013CBCF0012C2E1 /* KOStoryActorInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStoryActorInfo.h; sourceTree = "<group>"; };
+		4B1491CB2013CBCF0012C2E1 /* KOFriendContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOFriendContext.h; sourceTree = "<group>"; };
+		4B1491CC2013CBCF0012C2E1 /* KOSessionTask+StoryAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOSessionTask+StoryAPI.h"; sourceTree = "<group>"; };
+		4B1491CD2013CBD00012C2E1 /* KOSessionTask+UserManagementAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOSessionTask+UserManagementAPI.h"; sourceTree = "<group>"; };
+		4B1491CE2013CBD00012C2E1 /* KOStoryLikeInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStoryLikeInfo.h; sourceTree = "<group>"; };
+		4B1491CF2013CBD00012C2E1 /* KOTalkMessageSending.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOTalkMessageSending.h; sourceTree = "<group>"; };
+		4B1491D02013CBD00012C2E1 /* NSDictionary+SafeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeValue.h"; sourceTree = "<group>"; };
+		4B1491D12013CBD00012C2E1 /* KOSessionTask+PushAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOSessionTask+PushAPI.h"; sourceTree = "<group>"; };
+		4B1491D22013CBD00012C2E1 /* KOStoryMyStoryInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStoryMyStoryInfo.h; sourceTree = "<group>"; };
+		4B1491D32013CBD10012C2E1 /* KOStoryPostInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOStoryPostInfo.h; sourceTree = "<group>"; };
+		4B1491D42013CBD10012C2E1 /* KOChat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOChat.h; sourceTree = "<group>"; };
+		4B1491D52013CBD10012C2E1 /* KOAppCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOAppCall.h; sourceTree = "<group>"; };
+		4B1491D62013CBD10012C2E1 /* KOSessionTask+TalkAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOSessionTask+TalkAPI.h"; sourceTree = "<group>"; };
+		4B1491D72013CBD10012C2E1 /* KOLoginButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOLoginButton.h; sourceTree = "<group>"; };
+		4B1491D82013CBD20012C2E1 /* KOSessionTask+TokenAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOSessionTask+TokenAPI.h"; sourceTree = "<group>"; };
+		4B1491D92013CBD20012C2E1 /* KOAccessTokenInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOAccessTokenInfo.h; sourceTree = "<group>"; };
+		4B1491DA2013CBD20012C2E1 /* KOImages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOImages.h; sourceTree = "<group>"; };
+		4B1491DB2013CBD20012C2E1 /* KOFriendOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOFriendOperation.h; sourceTree = "<group>"; };
+		4B1491DC2013CBD20012C2E1 /* KOPushTokenInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOPushTokenInfo.h; sourceTree = "<group>"; };
+		4B1491DD2013CBD20012C2E1 /* KOSessionTask+FriendAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOSessionTask+FriendAPI.h"; sourceTree = "<group>"; };
+		4B1491DE2013CBD30012C2E1 /* KOBaseContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOBaseContext.h; sourceTree = "<group>"; };
+		4B1491DF2013CBD30012C2E1 /* KakaoPushMessagePropertyForApns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoPushMessagePropertyForApns.h; sourceTree = "<group>"; };
+		4B1491E02013CBD30012C2E1 /* KOHTTPMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOHTTPMethod.h; sourceTree = "<group>"; };
+		4B1491E12013CBD30012C2E1 /* KOError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOError.h; sourceTree = "<group>"; };
+		4B1491E22013CBD30012C2E1 /* KOUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOUser.h; sourceTree = "<group>"; };
+		4B1491E32013CBD30012C2E1 /* KakaoOpenSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoOpenSDK.h; sourceTree = "<group>"; };
+		4B1491E42013CBD40012C2E1 /* KakaoPushMessageObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoPushMessageObject.h; sourceTree = "<group>"; };
+		4B1491E52013CBD40012C2E1 /* KOSessionTask+AgeAuthAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOSessionTask+AgeAuthAPI.h"; sourceTree = "<group>"; };
+		4B1491E62013CBD40012C2E1 /* KOChatContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOChatContext.h; sourceTree = "<group>"; };
+		4B1491E72013CBD40012C2E1 /* KakaoTalkLinkObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KakaoTalkLinkObject.h; sourceTree = "<group>"; };
 		4BC4111C1FB2ADF00074781C /* Kakao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kakao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC411201FB2ADF00074781C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BC4113D1FB2B55A0074781C /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		4BD6DD631FB2D03700EB9C19 /* Kakao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kakao.h; sourceTree = "<group>"; };
 		4BF1F6AA1FB2D16B0076579F /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
-		4BF1F6AD1FB2D5F00076579F /* main.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = main.modulemap; sourceTree = "<group>"; };
-		4BF1F6AF1FB2D6F00076579F /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		4BF1F6B51FB2D71D0076579F /* LoadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF1F6B71FB2D71D0076579F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BF1F6B91FB2D71D0076579F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BF1F6BC1FB2D71D0076579F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BF1F6BE1FB2D71D0076579F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BF1F6C11FB2D71D0076579F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF1F6C31FB2D71D0076579F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,12 +193,54 @@
 		4BC4111E1FB2ADF00074781C /* Kakao */ = {
 			isa = PBXGroup;
 			children = (
+				4B1491E32013CBD30012C2E1 /* KakaoOpenSDK.h */,
+				4B1491E42013CBD40012C2E1 /* KakaoPushMessageObject.h */,
+				4B1491DF2013CBD30012C2E1 /* KakaoPushMessagePropertyForApns.h */,
+				4B1491C32013CBCD0012C2E1 /* KakaoPushMessagePropertyForGcm.h */,
+				4B1491C42013CBCE0012C2E1 /* KakaoTalkLinkAction.h */,
+				4B1491E72013CBD40012C2E1 /* KakaoTalkLinkObject.h */,
+				4B1491D92013CBD20012C2E1 /* KOAccessTokenInfo.h */,
+				4B1491BF2013CBCD0012C2E1 /* KOAgeAuthQueryStringBuilder.h */,
+				4B1491D52013CBD10012C2E1 /* KOAppCall.h */,
+				4B1491DE2013CBD30012C2E1 /* KOBaseContext.h */,
+				4B1491D42013CBD10012C2E1 /* KOChat.h */,
+				4B1491E62013CBD40012C2E1 /* KOChatContext.h */,
+				4B1491E12013CBD30012C2E1 /* KOError.h */,
+				4B1491C52013CBCE0012C2E1 /* KOFriend.h */,
+				4B1491CB2013CBCF0012C2E1 /* KOFriendContext.h */,
+				4B1491DB2013CBD20012C2E1 /* KOFriendOperation.h */,
+				4B1491E02013CBD30012C2E1 /* KOHTTPMethod.h */,
+				4B1491DA2013CBD20012C2E1 /* KOImages.h */,
+				4B1491D72013CBD10012C2E1 /* KOLoginButton.h */,
+				4B1491DC2013CBD20012C2E1 /* KOPushTokenInfo.h */,
+				4B1491C62013CBCE0012C2E1 /* KOSession.h */,
+				4B1491C92013CBCF0012C2E1 /* KOSessionTask.h */,
+				4B1491E52013CBD40012C2E1 /* KOSessionTask+AgeAuthAPI.h */,
+				4B1491DD2013CBD20012C2E1 /* KOSessionTask+FriendAPI.h */,
+				4B1491D12013CBD00012C2E1 /* KOSessionTask+PushAPI.h */,
+				4B1491CC2013CBCF0012C2E1 /* KOSessionTask+StoryAPI.h */,
+				4B1491D62013CBD10012C2E1 /* KOSessionTask+TalkAPI.h */,
+				4B1491D82013CBD20012C2E1 /* KOSessionTask+TokenAPI.h */,
+				4B1491CD2013CBD00012C2E1 /* KOSessionTask+UserManagementAPI.h */,
+				4B1491BE2013CBCD0012C2E1 /* KOStorageImageInfo.h */,
+				4B1491CA2013CBCF0012C2E1 /* KOStoryActorInfo.h */,
+				4B1491BC2013CBCC0012C2E1 /* KOStoryCommentInfo.h */,
+				4B1491CE2013CBD00012C2E1 /* KOStoryLikeInfo.h */,
+				4B1491BD2013CBCC0012C2E1 /* KOStoryLinkInfo.h */,
+				4B1491C22013CBCD0012C2E1 /* KOStoryMyStoryImageInfo.h */,
+				4B1491D22013CBD00012C2E1 /* KOStoryMyStoryInfo.h */,
+				4B1491D32013CBD10012C2E1 /* KOStoryPostInfo.h */,
+				4B1491C12013CBCD0012C2E1 /* KOStoryProfile.h */,
+				4B1491CF2013CBD00012C2E1 /* KOTalkMessageSending.h */,
+				4B1491C72013CBCE0012C2E1 /* KOTalkProfile.h */,
+				4B1491E22013CBD30012C2E1 /* KOUser.h */,
+				4B1491C02013CBCD0012C2E1 /* KOUserInfo.h */,
+				4B1491C82013CBCE0012C2E1 /* KOUtils.h */,
+				4B1491D02013CBD00012C2E1 /* NSDictionary+SafeValue.h */,
 				4BF1F6AA1FB2D16B0076579F /* KakaoOpenSDK.framework */,
 				4BC411201FB2ADF00074781C /* Info.plist */,
-				4BC4113D1FB2B55A0074781C /* module.modulemap */,
-				4BF1F6AD1FB2D5F00076579F /* main.modulemap */,
-				4BF1F6AF1FB2D6F00076579F /* Dummy.swift */,
-				4BD6DD631FB2D03700EB9C19 /* Kakao.h */,
+				4B1491612013C6CC0012C2E1 /* Dummy.swift */,
+				4B14915F2013C3F60012C2E1 /* Kakao.h */,
 			);
 			path = Kakao;
 			sourceTree = "<group>";
@@ -133,9 +257,7 @@
 			children = (
 				4BF1F6B71FB2D71D0076579F /* AppDelegate.swift */,
 				4BF1F6B91FB2D71D0076579F /* ViewController.swift */,
-				4BF1F6BB1FB2D71D0076579F /* Main.storyboard */,
 				4BF1F6BE1FB2D71D0076579F /* Assets.xcassets */,
-				4BF1F6C01FB2D71D0076579F /* LaunchScreen.storyboard */,
 				4BF1F6C31FB2D71D0076579F /* Info.plist */,
 			);
 			path = LoadDemo;
@@ -148,7 +270,51 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF1F6AC1FB2D4830076579F /* Kakao.h in Headers */,
+				4B14920A2013CBEA0012C2E1 /* KOStoryMyStoryImageInfo.h in Headers */,
+				4B1492072013CBEA0012C2E1 /* KOStoryCommentInfo.h in Headers */,
+				4B1491F22013CBEA0012C2E1 /* KOChat.h in Headers */,
+				4B1491F02013CBEA0012C2E1 /* KOAppCall.h in Headers */,
+				4B1491F52013CBEA0012C2E1 /* KOFriend.h in Headers */,
+				4B1491FD2013CBEA0012C2E1 /* KOSessionTask.h in Headers */,
+				4B1492122013CBEA0012C2E1 /* KOUtils.h in Headers */,
+				4B14920B2013CBEA0012C2E1 /* KOStoryMyStoryInfo.h in Headers */,
+				4B1491F32013CBEA0012C2E1 /* KOChatContext.h in Headers */,
+				4B1491FE2013CBEA0012C2E1 /* KOSessionTask+AgeAuthAPI.h in Headers */,
+				4B1491E92013CBEA0012C2E1 /* KakaoPushMessageObject.h in Headers */,
+				4B1491632013C7F40012C2E1 /* Kakao.h in Headers */,
+				4B1492062013CBEA0012C2E1 /* KOStoryActorInfo.h in Headers */,
+				4B1491EE2013CBEA0012C2E1 /* KOAccessTokenInfo.h in Headers */,
+				4B1491E82013CBEA0012C2E1 /* KakaoOpenSDK.h in Headers */,
+				4B1491FA2013CBEA0012C2E1 /* KOLoginButton.h in Headers */,
+				4B1492112013CBEA0012C2E1 /* KOUserInfo.h in Headers */,
+				4B1492022013CBEA0012C2E1 /* KOSessionTask+TalkAPI.h in Headers */,
+				4B1492002013CBEA0012C2E1 /* KOSessionTask+PushAPI.h in Headers */,
+				4B1491FB2013CBEA0012C2E1 /* KOPushTokenInfo.h in Headers */,
+				4B14920C2013CBEA0012C2E1 /* KOStoryPostInfo.h in Headers */,
+				4B1492092013CBEA0012C2E1 /* KOStoryLinkInfo.h in Headers */,
+				4B1491FF2013CBEA0012C2E1 /* KOSessionTask+FriendAPI.h in Headers */,
+				4B1492102013CBEA0012C2E1 /* KOUser.h in Headers */,
+				4B1492042013CBEA0012C2E1 /* KOSessionTask+UserManagementAPI.h in Headers */,
+				4B1491F72013CBEA0012C2E1 /* KOFriendOperation.h in Headers */,
+				4B1491F12013CBEA0012C2E1 /* KOBaseContext.h in Headers */,
+				4B1491EF2013CBEA0012C2E1 /* KOAgeAuthQueryStringBuilder.h in Headers */,
+				4B1491ED2013CBEA0012C2E1 /* KakaoTalkLinkObject.h in Headers */,
+				4B1492032013CBEA0012C2E1 /* KOSessionTask+TokenAPI.h in Headers */,
+				4B1491EB2013CBEA0012C2E1 /* KakaoPushMessagePropertyForGcm.h in Headers */,
+				4B1491F92013CBEA0012C2E1 /* KOImages.h in Headers */,
+				4B1492082013CBEA0012C2E1 /* KOStoryLikeInfo.h in Headers */,
+				4B14920D2013CBEA0012C2E1 /* KOStoryProfile.h in Headers */,
+				4B14920E2013CBEA0012C2E1 /* KOTalkMessageSending.h in Headers */,
+				4B1491EC2013CBEA0012C2E1 /* KakaoTalkLinkAction.h in Headers */,
+				4B1492012013CBEA0012C2E1 /* KOSessionTask+StoryAPI.h in Headers */,
+				4B1491FC2013CBEA0012C2E1 /* KOSession.h in Headers */,
+				4B1492132013CBEA0012C2E1 /* NSDictionary+SafeValue.h in Headers */,
+				4B1492052013CBEA0012C2E1 /* KOStorageImageInfo.h in Headers */,
+				4B1491EA2013CBEA0012C2E1 /* KakaoPushMessagePropertyForApns.h in Headers */,
+				4B14920F2013CBEA0012C2E1 /* KOTalkProfile.h in Headers */,
+				4B1491F82013CBEA0012C2E1 /* KOHTTPMethod.h in Headers */,
+				4B1491F62013CBEA0012C2E1 /* KOFriendContext.h in Headers */,
+				4B1491F42013CBEA0012C2E1 /* KOError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +371,7 @@
 				TargetAttributes = {
 					4BC4111B1FB2ADF00074781C = {
 						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 0910;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					4BF1F6B41FB2D71D0076579F = {
@@ -245,9 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF1F6C21FB2D71D0076579F /* LaunchScreen.storyboard in Resources */,
 				4BF1F6BF1FB2D71D0076579F /* Assets.xcassets in Resources */,
-				4BF1F6BD1FB2D71D0076579F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF1F6B01FB2D6F00076579F /* Dummy.swift in Sources */,
+				4B1491622013C6CC0012C2E1 /* Dummy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,25 +444,6 @@
 			targetProxy = 4BF1F6CD1FB2D7910076579F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4BF1F6BB1FB2D71D0076579F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BF1F6BC1FB2D71D0076579F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4BF1F6C01FB2D71D0076579F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BF1F6C11FB2D71D0076579F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4BC411221FB2ADF00074781C /* Debug */ = {
@@ -424,12 +569,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Kakao";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Kakao/**";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Kakao/**";
 				INFOPLIST_FILE = Kakao/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/Kakao/main.modulemap";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -437,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.muukii.Kakao;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Kakao/**";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Kakao/KakaoOpenSDK.framework/**";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -455,12 +599,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Kakao";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Kakao/**";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Kakao/**";
 				INFOPLIST_FILE = Kakao/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/Kakao/main.modulemap";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -468,7 +611,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.muukii.Kakao;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Kakao/**";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Kakao/KakaoOpenSDK.framework/**";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,7 +1,0 @@
-framework module Kakao {
-  umbrella header "Kakao.h"
-
-  export *
-  module * { export * }
-}
-

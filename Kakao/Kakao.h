@@ -2,20 +2,19 @@
 //  Kakao.h
 //  Kakao
 //
-//  Created by muukii on 11/8/17.
-//  Copyright © 2017 muukii. All rights reserved.
+//  Created by muukii on 1/21/18.
+//  Copyright © 2018 muukii. All rights reserved.
 //
 
 #ifndef Kakao_h
 #define Kakao_h
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-  //! Project version number for App.
 FOUNDATION_EXPORT double KakaoVersionNumber;
 
-  //! Project version string for App.
 FOUNDATION_EXPORT const unsigned char KakaoVersionString[];
 
+#import "KakaoOpenSDK.h"
 
 #endif /* Kakao_h */
